@@ -1,0 +1,61 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(//fonts.googleapis.com/earlyaccess/kopubbatang.css);
+
+h2 {
+  font-family: 'Hanna', sans-serif;
+  text-align: center;
+  background-color: #b4aee8;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'KoPub Batang', serif;
+  background-color: #f0eefa;
+}
+.movie {
+  font-family: 'KoPub Batang', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0eefa;
+}
+
+.guestbook {
+  font-family: 'KoPub Batang', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0eefa;
+}
+
+.img--movie {
+  width: 100px;
+  height: 80px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+th,
+td {
+  height: 50px;
+  text-align: center;
+  border: 1px solid #000;
+
+  vertical-align: top;
+  vertical-align: bottom;
+  vertical-align: middle;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.story {
+  padding: 10px;
+  text-align: left;
+}
